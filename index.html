@@ -60,6 +60,7 @@
     />
 
     <link rel="stylesheet" href="style/style.css" />
+    <script src="./script/accordion.js" defer></script>
   </head>
   <body>
     <div class="content">
@@ -76,69 +77,9 @@
           />
           <h1 class="accordion__title">Faq<span>s</span></h1>
         </header>
-        <ul class="accordion__list">
-          <li class="accordion__item">
-            <button class="btn btn--handle">
-              <span>What is Frontend Mentor, and how will it help me?</span>
-              <img
-                src="./assets/images/icon-minus.svg"
-                alt=""
-                aria-hidden="true"
-                width="30"
-                height="30"
-              />
-            </button>
-            <div class="accordion__content">
-              <p class="accordion__description">
-                Frontend Mentor offers realistic coding challenges to help
-                developers improve their frontend coding skills with projects in
-                HTML, CSS, and JavaScript. It’s suitable for all levels and
-                ideal for portfolio building.
-              </p>
-            </div>
-          </li>
-          <li class="accordion__item">
-            <button class="btn btn--handle">
-              <span>What is Frontend Mentor, and how will it help me?</span>
-              <img
-                src="./assets/images/icon-minus.svg"
-                alt=""
-                aria-hidden="true"
-                width="30"
-                height="30"
-              />
-            </button>
-            <div class="accordion__content">
-              <p class="accordion__description">
-                Frontend Mentor offers realistic coding challenges to help
-                developers improve their frontend coding skills with projects in
-                HTML, CSS, and JavaScript. It’s suitable for all levels and
-                ideal for portfolio building.
-              </p>
-            </div>
-          </li>
-          <li class="accordion__item">
-            <button class="btn btn--handle">
-              <span>Is Frontend Mentor free?</span>
-              <img
-                src="./assets/images/icon-plus.svg"
-                alt=""
-                aria-hidden="true"
-                width="30"
-                height="30"
-              />
-            </button>
-            <div class="accordion__content">
-              <p class="accordion__description">
-                Frontend Mentor offers realistic coding challenges to help
-                developers improve their frontend coding skills with projects in
-                HTML, CSS, and JavaScript. It’s suitable for all levels and
-                ideal for portfolio building.
-              </p>
-            </div>
-          </li>
-        </ul>
+        <ul class="accordion__list" data-accordion-list></ul>
       </main>
     </div>
   </body>
 </html>
+
