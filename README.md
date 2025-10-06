@@ -21,7 +21,6 @@ Live demo: [DEMO](https://kamil-engineer.github.io/accordion/)
   multiOpen — allow one or multiple items open
   initiallyOpenIds — predefine open items
   storageKey — custom key for state persistence
-- 🔹 Smooth toggle animations (CSS transition ready)
 - 🔹 Clean, semantic HTML structure
 - 🔹 Reusable and easy to integrate into any static site
 
